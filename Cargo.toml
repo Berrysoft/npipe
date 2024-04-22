@@ -1,0 +1,10 @@
+[package]
+name = "npipe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+compio = { version = "0.9", features = ["macros", "nightly", "signal"] }
+futures-util = "0.3"
+ipnet = "2"
